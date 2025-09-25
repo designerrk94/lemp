@@ -8,7 +8,7 @@ services:
     build:
       context: ./.docker/nginx
       dockerfile: Dockerfile
-    image: CicdRabail/nginximages:999
+    image: CicdRabail/nginximages:123
     ports:
       - 80:80
     volumes:
